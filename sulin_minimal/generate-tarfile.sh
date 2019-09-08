@@ -10,8 +10,7 @@ sudo inary install acl attr bash bzip2 ca-certificates    \
                    pam python3 python3-psutil             \
                    python3-pycurl readline run-parts      \
                    sqlite timezone unzip xz zlib baselayout --ignore-scom --ignore-safety -Dsoot --yes-all
-
 cd soot
+rm -rf var/cache/inary/packages
 tar cpvf ../sulin.tar *
 cd ..
-
