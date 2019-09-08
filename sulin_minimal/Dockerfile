@@ -1,6 +1,7 @@
-FROM scratch
+FROM zaryob/sulin_minimal
 MAINTAINER Suleyman POYRAZ <zaryob.dev@gmail.com>
 
-ADD sulin.tar /
-RUN inary rr core
+RUN inary ur -y
+RUN inary up --ignore-scom --ignore-safety -y
+
 CMD [ "/bin/sh" ]
