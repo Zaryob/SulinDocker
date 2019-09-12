@@ -1,4 +1,4 @@
-FROM zaryob/sulin_minimal
+FROM zaryob/sulin:minimal
 MAINTAINER Suleyman POYRAZ <zaryob.dev@gmail.com>
 
 RUN inary ur -y
