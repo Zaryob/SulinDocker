@@ -9,7 +9,7 @@ sudo inary install acl attr bash bzip2 ca-certificates    \
                    libunistring libxml2 ncurses openssl   \
                    pam python3 python3-psutil             \
                    python3-pycurl readline run-parts      \
-                   sqlite timezone unzip xz zlib baselayout scom --ignore-scom --ignore-safety -Dsoot --yes-all
+                   sqlite timezone unzip xz zlib baselayout inary scom --ignore-scom --ignore-safety -Dsoot --yes-all
 cd soot
-rm -rf var/cache/inary/packages
+sudo rm -rf var/cache/inary/packages
 cd ..

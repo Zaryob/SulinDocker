@@ -7,8 +7,7 @@ RUN inary it -c system.base --ignore-scom --yes-all
 
 RUN dbus-daemon --system && \
     sh -c "scom --debug --print &" &&  \
-    inary it -c system.base --yes-all --reinstall 
-RUN inary dc
+    inary it -c system.base --yes-all --reinstall && inary dc
 RUN rm -rf /var/run/dbus/pid
 
 
